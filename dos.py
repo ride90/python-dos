@@ -71,7 +71,6 @@ parser.add_argument(
 async def send_request(url, method, session):
     if method == "RANDOM":
         method = random.choice(HTTP_METHODS)
-
     async with session.request(method, url, ssl=False) as response:
         # We want to suck in the whole response.
         await response.read()
