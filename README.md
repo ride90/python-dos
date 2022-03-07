@@ -1,7 +1,7 @@
 # python-dos
 Async multiprocess DOS tool
 
-.. image:: https://github.com/ride90/python-dos/raw/master/demo.png
+![demo](https://github.com/ride90/python-dos/raw/master/demo.png)
 
 ## Install dependencies
 ```shell
